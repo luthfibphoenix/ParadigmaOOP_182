@@ -8,12 +8,12 @@ public:
 	string name;
 	jantung varJantung;
 
-	manusia(string pNama)
+	manusia(string pName)
 		: name(pName) {
-		cout << nama << "hidup\n";
+		cout << name << "hidup\n";
 	}
 	~manusia() {
-		cout << nama << "mati\n";
+		cout << name << "mati\n";
 	}
 };
 #endif
